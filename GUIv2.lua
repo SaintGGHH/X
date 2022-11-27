@@ -5,7 +5,7 @@ local ThemeManager = {} do
 
 	ThemeManager.Library = nil
 	ThemeManager.BuiltInThemes = {
-		['Default'] 		= { 1, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"001a1c","AccentColor":"ff004c","BackgroundColor":"141414","OutlineColor":"323232"}') },
+		['Xenon Hub'] 		= { 1, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"181825","AccentColor":"ff3c3c","BackgroundColor":"16161f","OutlineColor":"323232"}') },
     ['Dracula'] 		= { 2, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"232533","AccentColor":"6271a5","BackgroundColor":"1b1c27","OutlineColor":"7c82a7"}') },
 		['Bitch Bot'] 		= { 3, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"1e1e1e","AccentColor":"7e48a3","BackgroundColor":"232323","OutlineColor":"141414"}') },
 		['Fatality'] 		= { 5, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"1e1842","AccentColor":"c50754","BackgroundColor":"191335","OutlineColor":"3c355d"}') },
